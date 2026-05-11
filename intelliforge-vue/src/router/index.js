@@ -34,12 +34,14 @@ const routes = [
   ...services.map(s => ({
     path: `/${s.slug}`,
     component: ServiceDetail,
+    props: { slug: s.slug },
   })),
 
   { path: '/our-solutions', component: OurSolutions },
   ...solutions.map(s => ({
     path: `/${s.slug}`,
     component: SolutionDetail,
+    props: { slug: s.slug },
   })),
 
   { path: '/experiense', component: Experiense },
@@ -50,8 +52,7 @@ const routes = [
 
   { path: '/privacy-policy', component: PrivacyPolicy },
   { path: '/terms-conditions', component: TermsConditions },
-  
-  // Catch all
+
   { path: '/:pathMatch(.*)*', redirect: '/' }
 ]
 
@@ -59,11 +60,7 @@ const router = createRouter({
   history: createWebHistory(),
   routes,
   scrollBehavior(to, from, savedPosition) {
-    if (savedPosition) {
-      return savedPosition
-    } else {
-      return { top: 0, behavior: 'smooth' }
-    }
+    return savedPosition || { top: 0, behavior: 'smooth' }
   }
 })
 

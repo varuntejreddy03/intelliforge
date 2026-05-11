@@ -1,21 +1,32 @@
 <template>
-  <section class="py-20 bg-brand-dark" id="about-intelliforge">
+  <section class="py-10" id="about-intelliforge">
     <div class="container-main">
-      <div class="glass-card p-8 sm:p-12 max-w-4xl mx-auto text-center">
-        <h2 class="text-2xl sm:text-3xl font-extrabold mb-4">
+      <div class="max-w-2xl mx-auto text-center mb-6">
+        <h2 class="text-xl font-black mb-3 text-white">
           About <span class="gradient-text">IntelliForge</span>
         </h2>
-        <p class="text-gray-300 leading-relaxed mb-6">
-          At IntelliForge, we're more than just a tech company — we're your trusted companion on your digital journey.
-          We understand that technology can sometimes feel overwhelming, but rest assured, we're here to simplify things for you.
-          Our approach is all about people first. We believe in building genuine connections with our customers,
-          understanding your unique needs, and earning your trust every step of the way.
+        <p class="text-gray-400 text-[13px] leading-relaxed">
+          We're your trusted companion on your digital journey. Our approach is people first: building genuine connections, understanding your unique needs, and earning your trust every step of the way.
         </p>
-        <p class="text-gray-400 leading-relaxed">
-          Our team is dedicated to providing reliable solutions and unwavering support to help you achieve your goals.
-          Whether you're a seasoned tech enthusiast or just starting out, we'll meet you where you are and guide you towards success.
-        </p>
+      </div>
+      <div class="grid sm:grid-cols-3 gap-3 max-w-lg mx-auto">
+        <div class="text-center px-3 py-3 rounded-lg bg-white/[0.02] border border-white/[0.04]">
+          <Heart class="w-4 h-4 text-brand-blue mx-auto mb-1.5" />
+          <span class="text-[10px] font-semibold text-gray-300 block">Client-First</span>
+        </div>
+        <div class="text-center px-3 py-3 rounded-lg bg-white/[0.02] border border-white/[0.04]">
+          <Server class="w-4 h-4 text-brand-purple mx-auto mb-1.5" />
+          <span class="text-[10px] font-semibold text-gray-300 block">Scalable</span>
+        </div>
+        <div class="text-center px-3 py-3 rounded-lg bg-white/[0.02] border border-white/[0.04]">
+          <Headphones class="w-4 h-4 text-brand-cyan mx-auto mb-1.5" />
+          <span class="text-[10px] font-semibold text-gray-300 block">Reliable Support</span>
+        </div>
       </div>
     </div>
   </section>
 </template>
+
+<script setup>
+import { Heart, Server, Headphones } from 'lucide-vue-next'
+</script>
