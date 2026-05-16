@@ -7,24 +7,6 @@
         <div class="space-y-6">
           <div class="feature-card">
             <div class="flex items-start gap-4">
-              <div class="icon-gradient shrink-0"><MapPin class="w-5 h-5 text-brand-blue" /></div>
-              <div><h3 class="font-bold text-white mb-1">USA Office</h3><p class="text-sm text-gray-400">IntelliForge Inc<br />Houston, TX, USA</p></div>
-            </div>
-          </div>
-          <div class="feature-card">
-            <div class="flex items-start gap-4">
-              <div class="icon-gradient shrink-0"><MapPin class="w-5 h-5 text-brand-blue" /></div>
-              <div><h3 class="font-bold text-white mb-1">India Office</h3><p class="text-sm text-gray-400">2nd Floor, 1130, Rd Number 36<br />Jubilee Hills<br />Hyderabad, Telangana 500033</p></div>
-            </div>
-          </div>
-          <div class="feature-card">
-            <div class="flex items-start gap-4">
-              <div class="icon-gradient shrink-0"><Phone class="w-5 h-5 text-brand-blue" /></div>
-              <div><h3 class="font-bold text-white mb-1">Phone</h3><p class="text-sm text-gray-400">+1 (940) 295-5967</p></div>
-            </div>
-          </div>
-          <div class="feature-card">
-            <div class="flex items-start gap-4">
               <div class="icon-gradient shrink-0"><Mail class="w-5 h-5 text-brand-blue" /></div>
               <div><h3 class="font-bold text-white mb-1">Email</h3><p class="text-sm text-gray-400">Rajeshkolli393@gmail.com</p></div>
             </div>
@@ -38,6 +20,6 @@
 <script setup>
 import PageHero from '../components/PageHero.vue'
 import ContactForm from '../components/ContactForm.vue'
-import { MapPin, Phone, Mail } from 'lucide-vue-next'
+import { Mail } from 'lucide-vue-next'
 document.title = 'Contact Us — IntelliForge'
 </script>
