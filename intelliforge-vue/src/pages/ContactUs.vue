@@ -8,7 +8,7 @@
           <div class="feature-card">
             <div class="flex items-start gap-4">
               <div class="icon-gradient shrink-0"><MapPin class="w-5 h-5 text-brand-blue" /></div>
-              <div><h3 class="font-bold text-white mb-1">USA Office</h3><p class="text-sm text-gray-400">IntelliForge Inc<br />9700 Richmond Ave. #349<br />Houston, TX 77042</p></div>
+              <div><h3 class="font-bold text-white mb-1">USA Office</h3><p class="text-sm text-gray-400">IntelliForge Inc<br />Houston, TX, USA</p></div>
             </div>
           </div>
           <div class="feature-card">
@@ -20,13 +20,13 @@
           <div class="feature-card">
             <div class="flex items-start gap-4">
               <div class="icon-gradient shrink-0"><Phone class="w-5 h-5 text-brand-blue" /></div>
-              <div><h3 class="font-bold text-white mb-1">Phone & Fax</h3><p class="text-sm text-gray-400">Phone: 832-514-3903<br />Fax: 832-497-1809</p></div>
+              <div><h3 class="font-bold text-white mb-1">Phone</h3><p class="text-sm text-gray-400">+1 (940) 295-5967</p></div>
             </div>
           </div>
           <div class="feature-card">
             <div class="flex items-start gap-4">
               <div class="icon-gradient shrink-0"><Mail class="w-5 h-5 text-brand-blue" /></div>
-              <div><h3 class="font-bold text-white mb-1">Email</h3><p class="text-sm text-gray-400">info@intelliforge.com</p></div>
+              <div><h3 class="font-bold text-white mb-1">Email</h3><p class="text-sm text-gray-400">Rajeshkolli393@gmail.com</p></div>
             </div>
           </div>
         </div>

@@ -40,6 +40,6 @@ const sections = [
   { title: 'Eligibility Rules', content: 'All active employees are eligible to submit referrals. The referred candidate must not be a current or recent contractor, and must not have applied within the last 6 months. Roles must be full-time.' },
   { title: 'Payout Terms', content: 'The referral bonus is paid out after the referred employee successfully completes 90 days of continuous employment at IntelliForge.' },
   { title: 'Why Refer', content: 'Help us build a stronger, more dynamic team. You get to work with great people you know, and you earn a generous bonus for your contribution to our growth.' },
-  { title: 'Start Referring', content: 'Submit your referral\'s resume and contact information directly to our HR department via email at info@intelliforge.com with the subject line "Employee Referral: [Candidate Name]".' },
+  { title: 'Start Referring', content: 'Submit your referral\'s resume and contact information directly to our HR department via email at Rajeshkolli393@gmail.com with the subject line "Employee Referral: [Candidate Name]".' },
 ]
 </script>

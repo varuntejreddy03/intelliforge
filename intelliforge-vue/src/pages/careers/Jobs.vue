@@ -16,9 +16,9 @@
         <div class="relative z-10">
           <h3 class="text-2xl font-bold text-white mb-4">Ready to Apply?</h3>
           <p class="text-gray-300 mb-6">Send your resume and cover letter to our HR team.</p>
-          <a href="mailto:info@intelliforge.com" class="btn-primary inline-flex items-center gap-2">Send Resume <Mail class="w-5 h-5" /></a>
+          <a href="mailto:Rajeshkolli393@gmail.com" class="btn-primary inline-flex items-center gap-2">Send Resume <Mail class="w-5 h-5" /></a>
           <div class="mt-8 pt-6 border-t border-white/10">
-            <p class="text-sm text-gray-400">IntelliForge Inc<br/>9894 Bissonnet St. Suite 815<br/>Houston, TX 77036</p>
+            <p class="text-sm text-gray-400">IntelliForge Inc<br/>Houston, TX</p>
           </div>
         </div>
       </div>

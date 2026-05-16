@@ -26,7 +26,7 @@
       <p class="text-gray-300 leading-relaxed mb-4">We may update these terms and conditions from time to time without notice. Your continued use of the website following any changes indicates your acceptance of those changes.</p>
       
       <h2 class="text-xl font-bold text-white mt-8 mb-4">7. Contact Information</h2>
-      <p class="text-gray-300 leading-relaxed">If you have any questions about these Terms & Conditions, please contact us at <a href="mailto:info@intelliforge.com" class="text-brand-blue hover:underline">info@intelliforge.com</a>.</p>
+      <p class="text-gray-300 leading-relaxed">If you have any questions about these Terms & Conditions, please contact us at <a href="mailto:Rajeshkolli393@gmail.com" class="text-brand-blue hover:underline">Rajeshkolli393@gmail.com</a>.</p>
     </div></section>
   </div>
 </template>
