@@ -1,9 +1,12 @@
 <template>
-  <footer class="relative pt-10 pb-6 overflow-hidden">
-    <div class="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent"></div>
+  <footer class="relative pt-6 pb-6">
+    <!-- Top divider -->
+    <div class="container-main mb-6">
+      <div class="h-px bg-white/[0.06] w-full"></div>
+    </div>
 
     <!-- Pre-footer CTA -->
-    <div class="container-main relative z-10 mb-10">
+    <div class="container-main relative z-10 mb-8">
       <div class="bg-white/[0.02] border border-white/[0.06] rounded-xl p-6 md:p-8 text-center">
         <div class="max-w-lg mx-auto">
           <h2 class="text-xl md:text-2xl font-black text-white mb-3 tracking-tight">Ready to build your next <span class="gradient-text">digital product?</span></h2>
